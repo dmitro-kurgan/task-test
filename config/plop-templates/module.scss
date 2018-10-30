@@ -1,0 +1,48 @@
+.{{ dashCase name }} {
+
+  {{#if needSize}}
+  &--xs {
+
+  }
+
+  &--sm {
+
+  }
+
+  &--md {
+
+  }
+
+  &--lg {
+
+  }
+  {{/if}}
+
+  {{#if needColors}}
+  &--default {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+  }
+
+  &--primary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+  }
+
+  &--secondary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff;
+  }
+  {{/if}}
+
+  {{#if needStates}}
+  &:hover,
+  &:active,
+  &:focus {
+
+  }
+  {{/if}}
+}

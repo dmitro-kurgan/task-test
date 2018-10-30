@@ -1,0 +1,12 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# COMPANY
+
+  GBK Soft
+  https://gbksoft.com/
+  Kyiv, Ukraine
+
+# TECHNOLOGY
+
+  PUG, SASS, POSTCSS

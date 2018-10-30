@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  - var title = "Login"
+  include core/_head
+  body.login-page
+    main.login
+      .login__head
+        a(href="#").logo
+      form.form.form--login
+        h1.login__title Forgot Password
+        .form__group
+          label.form__title Email
+          input(type="text").form__control
+        .form__group
+          button.btn.btn--accept.btn--back Reset password
+      a(href="#").back-link Back to Login
